@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: fneue-haas-grotesk-display,sans-serif;
-    color: #fff;   
+    color:#fff;   
 }
 html,body{
     height: 100%;
@@ -18,12 +18,20 @@ html,body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 #page1 h1{
     font-size: 10vw;
     text-transform: uppercase;
     font-weight: 900;
     line-height: 8.5vw;
+}
+
+#page1 h1 svg {
+    height: 4vw;
+    width: 4vw;
+    background-color: #0ba34e;
+    border-radius: 50%;
 }
 #page2{
     height: 100vh;
