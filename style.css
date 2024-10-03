@@ -57,64 +57,120 @@ html,body{
     border-radius: 50px;
 }
 
-#page1-some h4:nth-last-child(2){
-    border: none;
-    padding: 2px;
-}
-    
-
-#page2{
-    height: 100vh;
-    width: 100%;
-    background-color: #111;
-}
-
 nav {
    
     display: flex;
-    align-items: center;
-    position: fixed;
+    align-items: flex-start;
     width: 100%;
+    height: 12vh;
     padding: 2vw 10.4vw;
     justify-content: space-between;
+    z-index: 10;
+    position: fixed;
 }
+
+
 nav h1 {
-    font-size: 50px;
+    font-size: 3.5vw;
 }
 
 .nav2 {
     display: flex;
     gap: 2vw;
+    align-items: flex-start;
+    position: relative;
+    padding: 1vh 0;
+    z-index: 10;
+    
 }
 
 .nav2 h4{
     text-transform: uppercase;
-   
-   
     font-weight: 500;
-    font-size: 2vw;
+    font-size:2vw;
+    margin-bottom: 2.0vw;
 }
-nav:hover #navbot {
-    height: 100%;
-    bottom: -100%;
-}
-#navbot {
-    
+.navele {
     height: 0%;
-    width: 79%;
-    transition: all ease 0.65s;
+    width: 80%;
     position: absolute;
-    bottom: 0%;
-    border-bottom: 1px solid#dadada;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-transform: uppercase;
-    padding: 2vw 13vw;
-    padding-left: 18vw;
+    top: 100%;
+    background-color: #111;
     
+}
+.navele h5 {
+    margin-bottom: 1vw;
+    display: none;
+    overflow: hidden;
+    
+
+}
+.navele h5 span {
+    font-size: 1.5vw;
+    font-weight: 400;
+    display: inline-block;
+    transform: translateY(2px);
+}
+
+nav button {
+    background-color: #0BA34E;
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    font-size: 0.85vw;
+    text-transform: uppercase;
+    font-weight: 750;
+    border-radius: 50px;
+    border: none;
+}
+
+nav button svg {
+    height: 0.7vw;
+    margin-left: 0.9vw;
 }
 
 .botdiv h5 span {
+    font-weight: 500;
     font-size: 1vw;
+}
+.botdiv {
+  background-color: #111;
+    
+}
+
+#page1-some h4:nth-last-child(2){
+    border: none;
+    padding: 2px;
+}
+
+#moving-div {
+    background-color: red;
+    margin-top: 10vh;
+    position: absolute;
+    bottom: 3%;
+    width: 44%;
+    white-space: nowrap;
+    padding: 1.2vw;
+    overflow: hidden;
+  
+}
+
+#moving-div .move img {
+    height: 1vw;
+    margin: 0 1.2vw;
+}
+
+#moving-div .move {
+    display: inline-block;
+}
+
+@keyframes mobe {
+
+    
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
 }

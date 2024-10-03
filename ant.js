@@ -7,11 +7,11 @@ nav.addEventListener("mouseenter",function(){
     tl.to("#nav-bottom",{
         height:"24vh"
     })
-    tl.to(".nav2 h5",{
+    tl.to(".nav-part2 h5",{
         display:"block"
     }) 
 
-    tl.to(".nav2 h5 span",{
+    tl.to(".nav-part2 h5 span",{
         y:0,
         // duration:0.3,
         stagger:{
@@ -23,13 +23,13 @@ nav.addEventListener("mouseenter",function(){
 
 nav.addEventListener("mouseleave",function(){
     let tl=gsap.timeline()
-    tl.to(".nav2 h5 span",{
+    tl.to(".nav-part2 h5 span",{
         y:25,
         stagger:{
             amount:0.2
         }
     }) 
-    tl.to(".nav2 h5",{
+    tl.to(".nav-part2 h5",{
         display:"none",
         duration:0.1
     })

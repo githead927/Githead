@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="ant.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <h1>LAZAREV.</h1>
-        <div class="nav-part2">
+        <div class="nav2">
 
-            <div class="nav-elem">
+            <div class="navele">
           <h4>Case Studies</h4>
           <h5><span>case studies</span></h5>
                 </div>
 
-                <div class="nav-elem">
+                <div class="navele">
           <h4>area of expertise</h4> 
           <h5><span>🔥AI & ML</span></h5>
                 <h5><span>real estate</span></h5>
@@ -25,7 +25,7 @@
                 <h5><span>fintech</span></h5>
                 </div>
 
-                <div class="nav-elem">
+                <div class="navele">
           <h4>uiux design</h4>
           <h5><span>real estate</span></h5>
                 <h5><span>e-commerce</span></h5>
@@ -33,7 +33,7 @@
                 <h5><span>fintech</span></h5>
                 </div>
 
-                <div class="nav-elem">
+                <div class="navele">
           <h4>product design</h4>
           <h5><span>real estate</span></h5>
                 <h5><span>e-commerce</span></h5>
@@ -41,13 +41,13 @@
                 <h5><span>fintech</span></h5>
                 </div>
 
-                <div class="nav-elem">
+                <div class="navele">
           <h4>design process</h4>
           <h5><span>e-commerce</span></h5>
                 <h5><span>real estate</span></h5>
                 </div>
 
-                <div class="nav-elem">
+                <div class="navele">
           <h4>about agency</h4> 
           <h5><span>real estate</span></h5>
                 <h5><span>e-commerce</span></h5>
@@ -57,7 +57,7 @@
 
         </div>
 
-<button class="btns">Let's Talk
+<button>Let's Talk
     <svg fill="none" viewBox="0 0 20 20">
         <path fill="#fff"
             d="M2.5 14.375V17.5h3.125l9.217-9.217-3.125-3.125L2.5 14.375Zm14.758-8.508a.83.83 0 0 0
