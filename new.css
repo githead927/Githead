@@ -20,14 +20,23 @@ nav {
     height: 12vh;
     padding: 2vw 10.4vw;
     z-index: 10;
+    background-color: #111;
 }
 
 nav h1 {
     font-size: 3.5vw;
 }
 
+.nav-2{
+    display: flex;
+    gap: 2vw;
+    align-items: flex-start;
+    padding: 1vh 0;
+    position: relative;
+    z-index: 10;
+}
 .nav-2 h4{
-    font-size: 0.73vw;
+    font-size: 1.5vw;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 2.6vw
@@ -37,13 +46,17 @@ nav h1 {
     margin-bottom: 1vw;
     display: none;
     overflow: hidden;
+    
 }
 
 .nav-2 h5 span{
-    font-size: 0.73vw;
+    font-size: 1vw;
     font-weight: 400;
     display: inline-block;
     transform: translateY(25px);
+    text-transform: uppercase;
+    
+    
 }
 
 .btns{
